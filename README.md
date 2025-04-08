@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🚀 Challenge Avanti - Perfil Github
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação feita para um desafio prático, construido utilizando **React**, **Vite**, e **Tailwind CSS**.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Descrição
 
-## Expanding the ESLint configuration
+Este projeto é uma aplicação web desenvolvida com:
+- **React** para construção de interfaces dinâmicas e componentizadas.
+- **Vite** como ferramenta de build rápida e eficiente para desenvolvimento moderno.
+- **Tailwind CSS** para estilização ágil com classes utilitárias personalizáveis.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Ideal para prototipagem rápida, projetos escaláveis e experiências de usuário responsivas.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📝 Como usar
+- Pesquise o nome de usuário do github no campo de pesquisa
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Funcionalidades
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- ⚡ **Desenvolvimento ultrarrápido** com Vite e Hot Module Replacement (HMR).
+- 📱 **Design responsivo** garantido pelo Tailwind CSS.
+- 🎨 **Estilização simplificada** usando classes utilitárias do Tailwind.
+- 🛠️ **Tooling moderno**: PostCSS, Autoprefixer e ESLint integrados.
+
+## 🛠️ Pré-requisitos
+
+- Node.js ≥16.x
+- npm/yarn/pnpm (recomendado npm ≥7.x)
+
+## 🚀 Começando
+
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   ```
+2. **Instalar dependências**
+   ```bash
+   cd nome-do-projeto
+   npm install
+   ```
+3. **Iniciar servidor de desenvolvimento**
+   ```bash
+   npm run dev
+   ```
+   Acesse: http://localhost:5173
+  
+4. **Build para produção**
+    ```bash
+     npm run build
+    ```
+5. **Preview da build**
+    ```bash
+     npm run preview
+    ```
+   
